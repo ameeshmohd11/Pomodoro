@@ -1,16 +1,66 @@
-# React + Vite
+# Study Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, comprehensive study management application built with React and Vite. This application helps students and professionals organize their study schedules, manage tasks, and stay focused using integrated tools like a Pomodoro timer and AI-powered planning.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Authentication:** Secure login and user management powered by Firebase.
+- **Dashboard:** Overview of your study progress and upcoming tasks.
+- **AI-Powered Planner:** Generate optimized study schedules and plans using Google's Generative AI.
+- **Pomodoro Timer:** Built-in timer to maintain focus using the Pomodoro technique.
+- **Task Management:** Create, track, and organize your daily tasks.
+- **Timetable:** Visual schedule to manage your classes and study sessions.
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework:** [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling:** CSS / Framer Motion for animations
+- **Authentication & Backend:** [Firebase](https://firebase.google.com/)
+- **AI Integration:** Google Generative AI (`@google/generative-ai`)
+- **Desktop Application:** Electron support included for standalone desktop builds
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v16 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ameeshmohd11/Pomodoro.git
+   cd Study-planner
+   ```
+
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+   The application will be available at `http://localhost:5173/`.
+
+### Desktop Build
+
+To run the application as a standalone desktop app using Electron:
+```bash
+npm run app:dev
+```
+
+To build the desktop application executable:
+```bash
+npm run app:build
+```
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ameeshmohd11/Pomodoro/issues).
+
+## 📄 License
+
+This project is licensed under the terms of the license included in the repository.
